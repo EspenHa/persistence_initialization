@@ -1,0 +1,7 @@
+# These are only the requirements that are not already present in the docker image
+hydra-core~=1.1.1
+patool
+pytorch-lightning~=1.5.1
+torchtyping 
+types-pyyaml
+zipp

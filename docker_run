@@ -1,0 +1,14 @@
+#!/bin/bash
+
+docker run \
+  --rm \
+  -it \
+  -u $UID:$GID \
+  --gpus=all \
+  --ipc=host \
+  --ulimit memlock=-1 \
+  --ulimit stack=67108864 \
+  --net=host \
+  --mount type=bind,source="$PWD",target=/workspace \
+  espenha/research:persistence_initialization \
+  "${@}"
