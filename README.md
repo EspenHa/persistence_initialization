@@ -2,7 +2,7 @@
 Public implementation of "Persistence Initialization: A novel adaptation of the Transformer architecture for Time Series Forecasting".
 
 ## Paper
-https://arxiv.org/abs/2208.14236 
+[Link](https://rdcu.be/dkIE1)
 
 ## Run code
 
